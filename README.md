@@ -1,5 +1,5 @@
-# opencode setup
+# OpenCode setup
 
-This repo is a playground for setting up opencode to run within a repo.
+This repo is a playground for setting up OpenCode to run within a repo.
 
-It might also document systemwide opencode setup.
+It might also document systemwide OpenCode setup.
