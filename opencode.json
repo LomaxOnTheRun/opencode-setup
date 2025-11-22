@@ -3,5 +3,9 @@
   "model": "anthropic/claude-haiku-4-5",
   "permission": {
     "webfetch": "ask"
+  },
+  "keybinds": {
+    "session_child_cycle": "cmd+right",
+    "session_child_cycle_reverse": "cmd+left"
   }
 }
