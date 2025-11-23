@@ -1,6 +1,8 @@
 ---
 description: Planning agent that analyzes and creates implementation plans
 mode: primary
+tools:
+  webfetch: true
 permission:
   webfetch: allow
 ---
