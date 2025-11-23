@@ -7,10 +7,5 @@
   "keybinds": {
     "session_child_cycle": "cmd+right",
     "session_child_cycle_reverse": "cmd+left"
-  },
-  "agent": {
-    "build": {
-      "prompt": "{file:./prompts/build.txt}"
-    }
   }
 }
