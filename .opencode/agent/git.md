@@ -8,6 +8,8 @@ permission:
     git status: allow
     git diff: allow
     git log: allow
+    git add: allow
+    git commit: allow
     git *: ask
     "*": deny
 ---
@@ -23,7 +25,7 @@ When asked to commit a change:
 1. Identify which files have changes which need to be committed
 2. Stage those files only
 3. Create a commit message using the advice below
-4. Show the staged files and check the user is happy with the commit message 
+4. YOU MUST: Show the staged files and check the user is happy with the commit message 
 5. Commit the staged files
 
 # Commit messages
