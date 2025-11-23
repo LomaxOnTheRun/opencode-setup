@@ -4,9 +4,9 @@ mode: primary
 tools:
   write: true
   edit: true
-permissions:
-  bash: deny
-  webfetch: deny
+permission:
+  write: ask
+  edit: ask
 ---
 
 # Overview
