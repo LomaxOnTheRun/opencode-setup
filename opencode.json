@@ -1,12 +1,18 @@
 {
   "$schema": "https://opencode.ai/config.json",
   "model": "anthropic/claude-haiku-4-5",
+  "tools": {
+    "read": true,
+    "glob": true,
+    "list": true,
+    "grep": true,
+    "*": false
+  },
   "permission": {
-    "webfetch": "ask",
     "bash": {
-      "*": "deny",
-      "pwd": "allow",
-      "ls": "allow"
+      "ls *": "allow",
+      "grep *": "allow",
+      "*": "deny"
     }
   }
 }
